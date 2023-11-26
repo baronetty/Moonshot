@@ -19,6 +19,9 @@ struct AstronautView: View {
                 
                 Text(astronaut.description)
                     .padding()
+                
+                Rectangle()
+                    .modifier(RectangleDivider())
             }
         }
         .background(.darkBackground)
