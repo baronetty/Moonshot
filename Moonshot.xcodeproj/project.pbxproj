@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B35289DA2B13CC7C00A0C1AD /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35289D92B13CC7C00A0C1AD /* GridLayout.swift */; };
+		B35289DC2B13CD3F00A0C1AD /* ListLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35289DB2B13CD3F00A0C1AD /* ListLayout.swift */; };
 		B37895A62B0F398C0003E702 /* MoonshotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37895A52B0F398C0003E702 /* MoonshotApp.swift */; };
 		B37895A82B0F398C0003E702 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37895A72B0F398C0003E702 /* ContentView.swift */; };
 		B37895AA2B0F398D0003E702 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B37895A92B0F398D0003E702 /* Assets.xcassets */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B35289D92B13CC7C00A0C1AD /* GridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		B35289DB2B13CD3F00A0C1AD /* ListLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListLayout.swift; sourceTree = "<group>"; };
 		B37895A22B0F398C0003E702 /* Moonshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moonshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B37895A52B0F398C0003E702 /* MoonshotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonshotApp.swift; sourceTree = "<group>"; };
 		B37895A72B0F398C0003E702 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +75,8 @@
 			children = (
 				B37895A52B0F398C0003E702 /* MoonshotApp.swift */,
 				B37895A72B0F398C0003E702 /* ContentView.swift */,
+				B35289D92B13CC7C00A0C1AD /* GridLayout.swift */,
+				B35289DB2B13CD3F00A0C1AD /* ListLayout.swift */,
 				B3A5A18E2B11E309006B2E00 /* MissionView.swift */,
 				B3A5A1902B12274E006B2E00 /* AstronautView.swift */,
 				B3B3CD152B1096B8002D921E /* Mission.swift */,
@@ -173,6 +179,8 @@
 				B38664162B10DFB00069FD83 /* Color-Theme.swift in Sources */,
 				B37895A82B0F398C0003E702 /* ContentView.swift in Sources */,
 				B37895A62B0F398C0003E702 /* MoonshotApp.swift in Sources */,
+				B35289DA2B13CC7C00A0C1AD /* GridLayout.swift in Sources */,
+				B35289DC2B13CD3F00A0C1AD /* ListLayout.swift in Sources */,
 				B3B3CD162B1096B8002D921E /* Mission.swift in Sources */,
 				B3B3CD142B108BCD002D921E /* Bundle-Decodable.swift in Sources */,
 			);
